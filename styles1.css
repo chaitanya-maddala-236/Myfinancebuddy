@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    padding: 50px;
+    background: #007BFF;
+    color: white;
+    text-align: center;
+}
+
+.cta-button {
+    background: #FFD700;
+    color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.features-container, .steps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature, .step {
+    width: 200px;
+    text-align: center;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    border-left: 5px solid #007BFF;
+    padding-left: 10px;
+    margin: 20px 0;
+}
+
+.demo-container iframe {
+    border: none;
+}
+
+footer {
+    background: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: #333;
+}
